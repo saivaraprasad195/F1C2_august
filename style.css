@@ -1,0 +1,137 @@
+
+
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: #E27D60;
+}
+
+.navbar {
+  width:100%;
+  background-color: #333;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+.navbar #logo{
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:right;
+  padding: 10px 10px;
+}
+
+.navbar li {
+  margin: .2rem .7rem;
+  padding: .7rem;
+  letter-spacing: .11px;
+}
+
+.navbar li:hover {
+  background-color: #c35f44;
+  border-radius: 10%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.section{
+  padding: 50px;
+  background-color: rgb(220, 236, 251);
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 4px #c35f44;
+}
+
+#books
+{
+  margin-top:8rem;
+  overflow-x:auto;
+}
+
+.book-table th {
+  background-color: rgb(220, 236, 251);
+  padding: 10px; 
+  text-align: center;
+}
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-table th, .book-table td {
+  border: 1px solid #e5d8d8;
+  padding: 8px; 
+  text-align: center;
+}
+
+.nested-table th{
+  border: none;
+  background-color:rgb(220, 236, 251);
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.nested-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.nested-table td {
+  border: 1px solid #e5d8d8;
+  padding: 8px;
+}
+
+.registration-form {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.registration-form input:hover{
+  border: 1px solid #df8f79;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration-form input, .registration-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.registration-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.registration-form button:hover {
+  background-color:#df8f79;
+  
+}
